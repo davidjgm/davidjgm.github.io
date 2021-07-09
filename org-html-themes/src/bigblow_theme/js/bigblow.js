@@ -39,9 +39,9 @@ $(function() {
     }
 });
 
-$(function() {
+/*$(function() {
     $('<div id="minitoc" class="dontprint"></div>').prependTo('body');
-});
+});*/
 
 // generate contents of minitoc
 /*function generateMiniToc(divId) {
