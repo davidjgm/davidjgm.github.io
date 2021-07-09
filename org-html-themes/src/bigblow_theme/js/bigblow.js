@@ -39,9 +39,9 @@ $(function() {
     }
 });
 
-/*$(function() {
+$(function() {
     $('<div id="minitoc" class="dontprint"></div>').prependTo('body');
-});*/
+});
 
 // generate contents of minitoc
 /*function generateMiniToc(divId) {
@@ -119,7 +119,7 @@ function selectTabAndScroll(href) {
     $('#content').tabs('option', 'active', targetTabIndex);
 
     // Rebuild minitoc
-    //generateMiniToc(targetTabId);
+    generateMiniToc(targetTabId);
 
     // Set the location hash
     // document.location.hash = href;
@@ -149,12 +149,12 @@ $(document).ready(function() {
     $('#content').tabs('option', 'show', true);
 
     // Rebuild minitoc when a tab is activated
-    /*$('#content').tabs({
+    $('#content').tabs({
         activate: function(event, ui) {
             var divId = ui.newTab.attr('aria-controls');
             generateMiniToc(divId);
         }
-    });*/
+    });
 
     // Required to get the link of the tab in URL
     $('#content ul').localScroll({
@@ -170,8 +170,8 @@ $(document).ready(function() {
     }
     // If no hash, build the minitoc anyway for selected tab
     else {
-        //var divId = $('#content div[aria-expanded=true]').attr('id');
-        //generateMiniToc(divId);
+        var divId = $('#content div[aria-expanded=true]').attr('id');
+        generateMiniToc(divId);
     }
 
     // Handle click on internal links
