@@ -1,4 +1,4 @@
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
+#+SETUPFILE: org-html-themes/org/theme-bigblow-local.setup
 #+TITLE: DAVID JULIAN GONZALEZ MALDONADO
 #+TOC: t
 * ABOUT ME
