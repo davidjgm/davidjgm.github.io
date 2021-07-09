@@ -39,13 +39,13 @@ $(function() {
     }
 });
 
-/*$(function() {
+$(function() {
     $('<div id="minitoc" class="dontprint"></div>').prependTo('body');
-});*/
+});
 
 // generate contents of minitoc
-/*function generateMiniToc(divId) {
-    $('#minitoc').empty().append('<h2>In this section</h2>');
+function generateMiniToc(divId) {
+    $('#minitoc').empty().append('<h2></h2>');
     $('#' + divId).find('h3').each(function(i) {
         let pos = $(this).text().search(" ");
         let text = $(this).text().substring(0, pos);
@@ -57,7 +57,7 @@ $(function() {
         var href = $(this).attr('href');
         hsExpandAnchor(href);
     });
-}*/
+}
 
 // display tabs
 function tabifySections() {
