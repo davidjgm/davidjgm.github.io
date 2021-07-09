@@ -1,0 +1,35 @@
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
+#+TITLE: DAVID JULIAN GONZALEZ MALDONADO
+#+TOC: t
+* ABOUT ME
+I am a Mechatronics Engineering with a MSc and DSc in Mechanical Enginering.
+
+My main research and working fields are: Rotordynamics, Vibration Measurement and Monitoring, Nonlinear Dynamics, Automation and Control, Robotics and Mechatronics.
+** Email
+
+Gmail: [[mailto:david.julian.gonzalez@gmail.com][david.julian.gonzalez@gmail.com]] (Preferred)
+
+Outlook: [[mailto:davidjuliang@hotmail.com][davidjuliang@hotmail.com]] (Alternative)
+      
+ProtonMail: [[mailto:djg.maldonado@protonmail.ch][djg.maldonado@protonmail.ch]] (Secure)
+
+** Curriculum
+Linkedin: [[https://www.linkedin.com/in/david-gonzalez-maldonado/][linkedin.com/in/david-gonzalez-maldonado]]
+
+ResearchGate: [[https://www.researchgate.net/profile/D-Maldonado][researchgate.net/profile/D-Maldonado]]
+
+** Phone/WhatsApp
++573118517763
+
+* EXPERIENCE
+
+* PROJECTS
+
+* SKILLS
+
+* EDUCATION
+
+* CONTACT 
+
+* RESUME
+
